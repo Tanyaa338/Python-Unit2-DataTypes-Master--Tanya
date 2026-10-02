@@ -40,12 +40,12 @@ elif temp == 68:
 else:
     print('cold') """
 
-number = 1
-if number == [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21]:
-    print('odd')
-elif number == [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22]:
-    print('even')
-    
+number = input("pick a number")
+if number == ["1", "3", "5", "7", "9", "11", "13", "15", "17"]:
+    print("odd")
+else:
+    print("even")
+
 
 
 
