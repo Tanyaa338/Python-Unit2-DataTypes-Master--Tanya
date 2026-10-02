@@ -15,13 +15,39 @@ z = y[0]
 print(y)
 print(z) """
 
-user = input("write a sentence")
+""" user = input("write a sentence")
 if user == "hi hi hi hi hi":
     y = user.split( )
     z = y[0]
 print(y)
-print(z)
+print(z) """ #xxxxxxxxx
+
+""" day_of_week = input("what day is it? ")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect") """
+
+""" x = "test"
+print(f"hello {x}") """
+
+
+""" temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+number = 1
+if number == [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21]:
+    print('odd')
+elif number == [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22]:
+    print('even')
     
+
+
 
 # one loop for gcf
 # use max or min to get the smallest number (x,y)
