@@ -76,13 +76,24 @@ bill = float(input("What's the bill amount? "))
 service = input("How was the service? ")
 tip_calculator(bill, service) """
 
-def factor_finder(number):
+""" def factor_finder(number):
     for i in range(1, number+1):
         if number % i == 0:
             print(i)
 
 number = input("pick a number")
-factor_finder(int(number))
+factor_finder(int(number)) """
+
+def gcf(x, y):
+    gcf_number = 1
+    for i in range(1, min(x, y)+1):
+        if x % i == 0 and y % i == 0:
+            gcf_number = i
+    return(gcf_number)
+
+x = int(input("pick a number: "))
+y = int(input("pick another number: "))
+print(gcf(x, y))
 
 # one loop for gcf
 # use max or min to get the smallest number (x,y)
