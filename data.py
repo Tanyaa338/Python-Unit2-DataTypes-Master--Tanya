@@ -40,14 +40,49 @@ elif temp == 68:
 else:
     print('cold') """
 
+""" def countwords(sentence):
+    words = sentence.split( )
+    return len(words)
+
+user = input("write a sentence")
+wordcount = countwords(user)
+print(wordcount) """
+
+
+""" def even_odd(number):
+    if number % 2 == 0:
+         print("even")
+    else:
+         print("odd")
+
 number = input("pick a number")
-if number == ["1", "3", "5", "7", "9", "11", "13", "15", "17"]:
-    print("odd")
-else:
-    print("even")
+even_odd(int(number)) """
 
+""" def tip_calculator(bill, service):
+    if service == "bad":
+        tip_percentage = 0
+    elif service == "okay":
+        tip_percentage = 0.15
+    elif service == "good":
+        tip_percentage = 0.20
+    else:
+        tip_percentage = 0.25
+    tip = int(bill * tip_percentage)
+    total_amount = bill + tip
+    print(f"tip: ${tip}")
+    print(f"total amount: ${total_amount}")
 
+bill = float(input("What's the bill amount? "))
+service = input("How was the service? ")
+tip_calculator(bill, service) """
 
+def factor_finder(number):
+    for i in range(1, number+1):
+        if number % i == 0:
+            print(i)
+
+number = input("pick a number")
+factor_finder(int(number))
 
 # one loop for gcf
 # use max or min to get the smallest number (x,y)
