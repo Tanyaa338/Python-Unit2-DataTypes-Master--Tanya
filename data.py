@@ -92,7 +92,7 @@ def gcf(x, y):
     return(gcf_number)
 
 x = int(input("pick a number: "))
-y = int(input("pick another number: "))
+y = int(input("pick another 5number: "))
 print(gcf(x, y))
 
 # one loop for gcf
