@@ -1,13 +1,43 @@
-def language(sentence):
-        y = sentence.split("S", "s")
+""" def language(sentence):
+        y = sentence.split("S")
+        y = sentence.split("s")
         z = y[0]
-        x = sentence.split("T", "t")
+        x = sentence.split("T")
+        x = sentence.split("t")
         w = x[0]
         if z > w:
-            print("French")
+            print("English")
         elif z == w:
             print("French")
         else:
-            print("English")
+            print("French")
 
 sentence = input("pick a sentence")
+language(sentence) """
+
+
+def language(sentence):
+        y = sentence.split("S")
+        y = sentence.split("s")
+        #z = y[0]
+        x = sentence.split("T")
+        x = sentence.split("t")
+        #w = x[0]
+        if y > x:
+            print("Frech")
+        elif x > y:
+             print ("English")
+        else:
+            print("French")
+
+sentence = input("pick a sentence")
+language(sentence)
+
+""" x = 6
+while True:
+    print("Running")
+    if x == 5:
+    break
+while guess != number: """
+
+#index card: loop example, sample function, how to access individual items in string
